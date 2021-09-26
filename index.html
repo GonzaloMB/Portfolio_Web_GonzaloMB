@@ -438,9 +438,9 @@
     </div>
   </section>
   <!-- CONTACT SECTION -->
-  <form target="thanks.html" action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936" method="POST">
     <section id="contact-us" class="contact">
       <div class="container">
+        <form action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936" method="POST" target="_self">
         <div class="row">
           <div class="col-12">
             <h5>CONTACT ME</h5>
@@ -449,6 +449,8 @@
         </div>
         <div class="row">
           <div class="col-12 col-lg-6 email">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://gonzalomb.com/thankyou.html" //>
             <input type="text" name="name" placeholder="Full Name" required>
           </div>
           <div class="col-12 col-lg-6 email">
@@ -459,18 +461,16 @@
           <div class="col-12 message">
             <textarea placeholder="Message here..." id="message" name="message" rows="5" cols="1"></textarea>
           </div>
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="http://gonzalomb.com/thanyou.html" target="_self"/>
           <div class="col-12">
             <div class="hero-btns contact-btn">
               <!-- Send Message Btn -->
-              <button type="submit" value="enviar">Send Message</button>
+              <button name="submit" type="submit">Send Message</button>
             </div>
           </div>
         </div>
+      </form>
       </div>
     </section>
-  </form>
   <!-- FOOTER SECTION -->
   <footer>
     <div class="container">
