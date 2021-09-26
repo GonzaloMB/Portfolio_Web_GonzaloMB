@@ -266,6 +266,9 @@ p {
 /*-----------------------------------------------------------
   4. Header
 -------------------------------------------------------------*/
+img.navbar-icon {
+  width: 13%;
+}
 .navbar-light .navbar-nav .nav-link {
   color: #314584;
   font-size: 1.1rem;
@@ -286,7 +289,7 @@ p {
   padding: 50px 0 0 0;
 }
 .navbar-light .navbar-brand {
-  margin-right: 10%;
+  margin-right: -20%;
 }
 .nav-item {
   padding: 0 10px;
@@ -1115,4 +1118,14 @@ footer h6 {
   .sub-content h2 {
     font-size: 30px;
   }
+}
+/*-----------------------------------------------------------
+  13. Thanks Page
+-------------------------------------------------------------*/
+
+.hero-btns .thanks-btns{
+   color: #ffffff !important; 
+}
+.hero-btns .thanks-btns:hover{
+  color: #314584 !important; 
 }
