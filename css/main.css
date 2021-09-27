@@ -757,7 +757,7 @@ footer h6 {
     font-size: 2rem;
   }
   .contact-btn {
-    display: none;
+    display: contents;
   }
   .hero-btns {
     margin-bottom: 70px;
