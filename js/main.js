@@ -61,7 +61,7 @@ $(document).ready(function () {
     $(".pop-up-wrap-RepsolRigel").addClass("show");
     $(".myFrameRepsolRigel").attr(
       "src",
-      "http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+      "http://www.youtube.com/embed/P5RY0C4Ka3I"
     );
   };
   function showPopupNaturgyCDS() {
@@ -69,16 +69,16 @@ $(document).ready(function () {
     $(".pop-up-wrap-NaturgyCDS").addClass("show");
     $(".myFrameNaturgyCDS").attr(
       "src",
-      "http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+      "http://www.youtube.com/embed/0TY6Z3ytgcU"
     );
   };
   function showPopupRepsolADA() {
     $(".pop-up-RepsolADA").addClass("show");
     $(".pop-up-wrap-RepsolADA").addClass("show");
-    $(".myFrameRepsolADA").attr(
-      "src",
-      "http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
-    );
+   // $(".myFrameRepsolADA").attr(
+   //   "src",
+    //  "http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+    //);
   };
   //Close Pop-Up
   $("#closeRepsolRigel").click(function () {
@@ -94,7 +94,7 @@ $(document).ready(function () {
   $("#closeRepsolADA").click(function () {
     $(".myFrameRepsolADA").removeAttr("src");
     $(".pop-up-RepsolADA").removeClass("show");
-    $(".pop-up-wrap-RepsolADA").removeClass("show");
+   // $(".pop-up-wrap-RepsolADA").removeClass("show");
   });
 
   //Click btn show pop-up
