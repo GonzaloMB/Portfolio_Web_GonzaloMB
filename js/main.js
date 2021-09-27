@@ -61,7 +61,7 @@ $(document).ready(function () {
     $(".pop-up-wrap-RepsolRigel").addClass("show");
     $(".myFrameRepsolRigel").attr(
       "src",
-      "http://www.youtube.com/embed/P5RY0C4Ka3I"
+      "https://www.youtube.com/embed/P5RY0C4Ka3I"
     );
   };
   function showPopupNaturgyCDS() {
@@ -69,7 +69,7 @@ $(document).ready(function () {
     $(".pop-up-wrap-NaturgyCDS").addClass("show");
     $(".myFrameNaturgyCDS").attr(
       "src",
-      "http://www.youtube.com/embed/0TY6Z3ytgcU"
+      "https://www.youtube.com/embed/0TY6Z3ytgcU"
     );
   };
   function showPopupRepsolADA() {
