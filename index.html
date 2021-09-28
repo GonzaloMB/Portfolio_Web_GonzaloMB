@@ -19,6 +19,7 @@
 
 <body>
   <!-- HEADER SECTION -->
+
   <header id="home">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -63,7 +64,7 @@
       </nav>
     </div>
     <!-- SECTION -->
-    <div class="container-fluid hero">
+    <div class="container-fluid hero darkmode-ignore">
       <img src="images/gonzalomb.svg" alt="" />
       <div class="container">
         <!-- Title -->
@@ -138,8 +139,10 @@
           <h2>Know more about me</h2>
           <!-- Replace About Us Text Under -->
           <p>
-            SAP Fiori UX | SAPUI5 | BTP analyst-developer at Unisys, passionate about my work and always willing to learn
-            new things and have new challenges. I enjoy all aspects of my job and also I love studying and learning about
+            SAP Fiori UX | SAPUI5 | BTP analyst-developer at Unisys, passionate about my work and always willing to
+            learn
+            new things and have new challenges. I enjoy all aspects of my job and also I love studying and learning
+            about
             new technologies.
             <br>
             Interested in learning something new either from colleagues or just creative and interesting people, do not
@@ -171,8 +174,7 @@
             distribution of laboratory hours).
           </p>
           <iframe class="myFrameRepsolRigel" id="player" type="text/html" width="270" height="150"
-            src="https://www.youtube.com/embed/P5RY0C4Ka3I"
-            frameborder="0"></iframe>
+            src="https://www.youtube.com/embed/P5RY0C4Ka3I" frameborder="0"></iframe>
         </div>
         <div class="line"></div>
       </div>
@@ -194,8 +196,7 @@
             with UI5.
           </p>
           <iframe class="myFrameNaturgyCDS" id="player" type="text/html" width="270" height="150"
-            src="https://www.youtube.com/embed/0TY6Z3ytgcU"
-            frameborder="0"></iframe>
+            src="https://www.youtube.com/embed/0TY6Z3ytgcU" frameborder="0"></iframe>
         </div>
         <div class="line"></div>
       </div>
@@ -217,7 +218,7 @@
             offers mobility and integration with the rest of non-SAP and SAP
             systems.
           </p>
-           <!-- <iframe class="myFrameRepsolADA" id="player" type="text/html" width="270" height="150"
+          <!-- <iframe class="myFrameRepsolADA" id="player" type="text/html" width="270" height="150"
             src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
             frameborder="0"></iframe>  -->
         </div>
@@ -438,9 +439,9 @@
     </div>
   </section>
   <!-- CONTACT SECTION -->
-    <section id="contact-us" class="contact">
-      <div class="container">
-        <form action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936" method="POST" target="_self">
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <form action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936" method="POST" target="_self">
         <div class="row">
           <div class="col-12">
             <h5>CONTACT ME</h5>
@@ -450,7 +451,7 @@
         <div class="row">
           <div class="col-12 col-lg-6 email">
             <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://gonzalomb.com/thankyou.html" //>
+            <input type="hidden" name="_next" value="https://gonzalomb.com/thankyou.html" / />
             <input type="text" name="name" placeholder="Full Name" required>
           </div>
           <div class="col-12 col-lg-6 email">
@@ -469,10 +470,10 @@
           </div>
         </div>
       </form>
-      </div>
-    </section>
+    </div>
+  </section>
   <!-- FOOTER SECTION -->
-  <footer>
+  <footer class="darkmode-ignore">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -501,6 +502,19 @@
     </div>
   </footer>
   <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode({
+        bottom: '20px',
+        left: '20px',
+        backgroundColor: '#eaeaea',
+        time: '0.4s',
+        label: '🌓'
+      }).showWidget();
+    }
+    window.addEventListener('load', addDarkmodeWidget);
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>

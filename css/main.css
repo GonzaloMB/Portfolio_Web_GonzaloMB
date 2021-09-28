@@ -146,7 +146,7 @@ p {
 .hero-btns a:first-child:hover {
   background-color: #fff;
   border: 2px solid #ff3946;
-  color: #314584;
+  color: #ff3946;
   padding: 17px 35px;
   font-size: 1rem;
   border-radius: 30px;
@@ -158,7 +158,8 @@ p {
   font-size: 1rem;
 }
 .hero-btns a:last-child:hover {
-  color: #ff3946;
+  color: #ff3946 !important;
+  isolation: isolate !important;
   transition: all 0.3s ease;
 }
 .navbar-light .navbar-toggler {
@@ -281,7 +282,7 @@ img.navbar-icon {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show > .nav-link {
-  color: #ff3946;
+  color: #ff3946 !important;
 }
 .navbar {
   padding: 50px 0 0 0;
@@ -322,10 +323,12 @@ img.navbar-icon {
   line-height: 1.5rem;
 }
 .side-img img {
+  z-index: -1;
   position: absolute;
   left: -20px;
 }
 .side2-img img {
+  z-index: -1;
   position: absolute;
   right: -20px;
   top: 1300px;
@@ -406,6 +409,7 @@ img.ui5 {
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
+
 .portfolio-aside img {
   z-index: -1;
   margin-top: 20px;
@@ -425,59 +429,65 @@ img.ui5 {
   display: inline-block;
 }
 .photobox__previewbox {
-  border-radius: 15px 15px 15px 15px;
-  position: relative;
-  overflow: hidden;
+  border-radius: 15px 15px 15px 15px !important;
+  position: relative !important;
+  overflow: hidden !important;
 }
 .photobox__preview {
-  display: block;
-  max-width: 100%;
+  display: block !important;
+  max-width: 100% !important;
 }
 .photobox__previewbox:before {
-  content: "";
+  content: "" !important;
 }
 .photobox_type10 .photobox__previewbox:before {
-  width: 0;
-  height: 0;
-  padding: 25%;
-  background-color: #314584;
-  opacity: 0.8;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: transform calc(var(--photoboxAnimationDuration, 0.8s) / 2) ease;
-  will-change: transform;
-  transform: translate(-50%, -50%) scale(0);
+  z-index: 10 !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25% !important;
+  background-color: #314584 !important;
+  opacity: 0.8 !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transition: transform calc(var(--photoboxAnimationDuration, 0.8s) / 2) ease !important;
+  will-change: transform !important;
+  transform: translate(-50%, -50%) scale(0) !important;
+  isolation: isolate !important;
 }
 .photobox_type10:hover .photobox__previewbox:before {
-  transform: translate(-50%, -50%) scale(4);
-  transition-duration: var(--photoboxAnimationDuration, 0.8s);
+  z-index: 10 !important;
+  transform: translate(-50%, -50%) scale(4) !important;
+  transition-duration: var(--photoboxAnimationDuration, 0.8s) !important;
 }
 .photobox_type10 .photobox__label {
-  width: 95%;
-  text-align: center;
-  opacity: 0;
+  z-index: 10 !important;
+  width: 95% !important;
+  text-align: center !important;
+  opacity: 0 !important;
   transition: opacity calc(var(--photoboxAnimationDuration, 0.8s) / 4)
       cubic-bezier(0.71, 0.05, 0.29, 0.9),
     transform calc(var(--photoboxAnimationDuration, 0.8s) / 4)
-      cubic-bezier(0.71, 0.05, 0.29, 0.9);
-  will-change: opacity, transform;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 200%);
-  z-index: 3;
-  color: #fff;
-  font-family: "Work Sans", sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem;
+      cubic-bezier(0.71, 0.05, 0.29, 0.9) !important;
+  will-change: opacity, transform !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, 200%) !important;
+  color: #fff !important;
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+  isolation: isolate !important;
 }
 .photobox_type10:hover .photobox__label {
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  transition-duration: calc(var(--photoboxAnimationDuration, 0.8s) / 2);
-  transition-delay: calc(var(--photoboxAnimationDuration, 0.8s) / 4);
+  z-index: 10 !important;
+  isolation: isolate !important;
+  opacity: 1 !important;
+  transform: translate(-50%, -50%) !important;
+  transition-duration: calc(var(--photoboxAnimationDuration, 0.8s) / 2) !important;
+  transition-delay: calc(var(--photoboxAnimationDuration, 0.8s) / 4) !important;
 }
 .hide {
   display: none;
@@ -487,6 +497,7 @@ img.ui5 {
   8. Blog
 -------------------------------------------------------------*/
 .blog-aside img {
+  z-index: -1;
   position: absolute;
   right: -20px;
   margin-top: 200px;
@@ -1126,4 +1137,84 @@ footer h6 {
 }
 .hero-btns .thanks-btns:hover {
   color: #314584 !important;
+}
+
+button.darkmode-toggle {
+  z-index: 5;
+}
+/*-----------------------------------------------------------
+  14. Dark Mode
+-------------------------------------------------------------*/
+.darkmode--activated input[type="text"],
+.darkmode--activated input[type="email"],
+.darkmode--activated textarea#message,
+.darkmode--activated .blog-box,
+.darkmode--activated .service-box,
+.darkmode--activated .hero-btns.service-btn a,
+.darkmode--activated button.slick-prev.slick-arrow.icofont-long-arrow-left,
+.darkmode--activated button.slick-next.slick-arrow.icofont-long-arrow-right {
+  background-color: #1c2023;
+  color: #b6c2ff !important;
+}
+.darkmode--activated .blog-first {
+  background-color: #ff3946;
+}
+.darkmode--activated #blog-btn {
+  color: #ff3946 !important;
+  background-color: black !important;
+  mix-blend-mode: difference;
+}
+.darkmode--activated #blog-btn:hover {
+  color: #314584 !important;
+  mix-blend-mode: difference;
+}
+.darkmode--activated .contact-btn button {
+  background-color: #1c2023;
+}
+.darkmode--activated .contact-btn :hover {
+  background-color: #ff3946 !important;
+  color: #1c2023 !important;
+}
+.darkmode--activated .hero-btns a:first-child {
+  background-color: #ff3946 !important;
+  color: #1c2023 !important;
+}
+.darkmode--activated .hero-btns a:first-child:hover {
+  background-color: #1c2023 !important;
+  border: 2px solid #ff3946 !important;
+  color: #ff3946 !important;
+}
+.darkmode--activated h1,
+.darkmode--activated .h1,
+.darkmode--activated h2,
+.darkmode--activated .h2,
+.darkmode--activated h3,
+.darkmode--activated .h3,
+.darkmode--activated h4,
+.darkmode--activated .h4,
+.darkmode--activated h6,
+.darkmode--activated .h6,
+.darkmode--activated p,
+.darkmode--activated .hero-btns a:last-child,
+.darkmode--activated ::-webkit-input-placeholder,
+.darkmode--activated a.nav-link {
+  color: #b6c2ff !important;
+}
+.darkmode--activated .hero-btns a:last-child:hover {
+  color: #ff3946 !important;
+}
+.darkmode--activated .hero-btns.service-btn a {
+  color: #1c2023 !important;
+}
+.darkmode--activated h5,
+.darkmode--activated .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover,
+.darkmode--activated .h5 {
+  color: #ff3946 !important;
+}
+.darkmode--activated .blog-first h6,
+.darkmode--activated .blog-first p{
+  color: #fff !important;
+}
+.darkmode--activated .subcription {
+  background: #1c2023;
 }
