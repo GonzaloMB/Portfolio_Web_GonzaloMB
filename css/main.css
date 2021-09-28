@@ -413,6 +413,7 @@ img.ui5 {
   left: -20px;
 }
 .work-box {
+  cursor: pointer;
   margin-bottom: 30px;
 }
 .work-box img {
