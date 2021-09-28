@@ -340,7 +340,7 @@ img.navbar-icon {
   min-height: 400px;
 }
 img.ui5 {
-    width: 32%;
+  width: 32%;
 }
 .service-box img {
   margin-bottom: 30px;
@@ -353,13 +353,12 @@ img.ui5 {
 }
 /*-----------------------------------------------------------
   6. Skillset
--------------------------------------------------------------*/ç
-
-#skillset img {
+-------------------------------------------------------------*/
+ç #skillset img {
   width: 10rem;
   max-width: 100%;
-  transition: all ease .5s;
-  border-radius: 2rem; 
+  transition: all ease 0.5s;
+  border-radius: 2rem;
 }
 .skillcont {
   text-align: center;
@@ -495,10 +494,10 @@ img.ui5 {
   padding: 25px 0px;
   margin-bottom: 100px;
 }
-.blog-trans{
+.blog-trans {
   border-radius: 25px;
   cursor: pointer;
-  transition: border-radius .3s ease,box-shadow .3s ease !important;
+  transition: border-radius 0.3s ease, box-shadow 0.3s ease !important;
   background-color: #fff;
 }
 .blog-trans :hover {
@@ -527,10 +526,10 @@ img.ui5 {
   cursor: pointer !important;
   filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.7));
   margin: auto;
-  width: 23%; 
+  width: 23%;
 }
 .app-img:hover {
-  filter: invert(1)  drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.7)) !important;
+  filter: invert(1) drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.7)) !important;
 }
 .slick-prev {
   position: absolute;
@@ -1121,9 +1120,9 @@ footer h6 {
   13. Thanks Page
 -------------------------------------------------------------*/
 
-.hero-btns .thanks-btns{
-   color: #ffffff !important; 
+.hero-btns .thanks-btns {
+  color: #ffffff !important;
 }
-.hero-btns .thanks-btns:hover{
-  color: #314584 !important; 
+.hero-btns .thanks-btns:hover {
+  color: #314584 !important;
 }
