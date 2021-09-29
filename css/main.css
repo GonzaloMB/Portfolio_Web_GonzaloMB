@@ -1170,18 +1170,18 @@ button.darkmode-toggle {
   mix-blend-mode: difference;
 }
 .darkmode--activated .contact-btn button {
-  background-color: #1c2023;
+  background-color: #000000;
 }
 .darkmode--activated .contact-btn :hover {
   background-color: #ff3946 !important;
-  color: #1c2023 !important;
+  color: #000000 !important;
 }
 .darkmode--activated .hero-btns a:first-child {
   background-color: #ff3946 !important;
-  color: #1c2023 !important;
+  color: #000000 !important;
 }
 .darkmode--activated .hero-btns a:first-child:hover {
-  background-color: #1c2023 !important;
+  background-color: #000000 !important;
   border: 2px solid #ff3946 !important;
   color: #ff3946 !important;
 }
@@ -1218,4 +1218,12 @@ button.darkmode-toggle {
 }
 .darkmode--activated .subcription {
   background: #1c2023;
+}
+.darkmode--activated button.slick-next.slick-arrow.icofont-long-arrow-right:hover {
+  content: "\ea94" !important;
+  color: #ff3946 !important;
+}
+.darkmode--activated button.slick-prev.slick-arrow.icofont-long-arrow-left:hover {
+  content: "\ea94" !important;
+  color: #ff3946 !important;
 }
