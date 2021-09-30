@@ -5,14 +5,13 @@
 <div align="center">
   Building my portfolio Web
 </div>
-
 <div align="center">
-  <h3>
+  <h3> 📝 
     <a href="https://www.linkedin.com/in/gonzalo-meana-balseiro-90a523188/">
       Contact Me
     </a>
   </h3>
-    <h3>
+    <h3> 💻  
     <a href="http://gonzalomb.com">
       Check my website
     </a>
