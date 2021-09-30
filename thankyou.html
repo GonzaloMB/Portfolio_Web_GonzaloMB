@@ -83,10 +83,11 @@
     <script>
       function addDarkmodeWidget() {
         new Darkmode({
-          bottom: '20px',
-          left: '20px',
-          time: '0.4s',
-          label: '🌓'
+          bottom: "10px",
+          right: "10px",
+          time: "0.5s",
+          saveInCookies: false,
+          label: "🌓",
         }).showWidget();
       }
       window.addEventListener('load', addDarkmodeWidget);
