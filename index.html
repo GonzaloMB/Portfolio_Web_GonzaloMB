@@ -1,771 +1,643 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metas -->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="LionCoders" />
-    <!-- Links -->
-    <link
-      rel="icon"
-      type="image/png"
-      href="images/iconGonzaloMB.svg"
-      alt="Designed by pikisuperstar / Freepik"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="icofont.min.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/slick.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
-    <!-- Document Title -->
-    <title>GonzaloMB</title>
-  </head>
 
-  <body>
-    <!-- HEADER SECTION -->
+<head>
+  <!-- Metas -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="LionCoders" />
+  <!-- Links -->
+  <link rel="icon" type="image/png" href="images/iconGonzaloMB.svg" alt="Designed by pikisuperstar / Freepik" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="icofont.min.css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/slick.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+  <!-- Document Title -->
+  <title>GonzaloMB</title>
+</head>
 
-    <header id="home">
+<body>
+  <!-- HEADER SECTION -->
+
+  <header id="home">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Change Logo Img Here -->
+        <a class="navbar-brand" href="#"><img class="navbar-icon" src="images/iconGonzaloMB.svg"
+            alt="Designed by pikisuperstar / Freepik" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="interactive-menu-button">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#home">Home.<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#about-us">About Me.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#portfolio">Work Portfolio.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#skills">Skillset.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#projects">Personal Projects.</a>
+            </li>
+            <li class="nav-item">
+              <!-- Nav Link -->
+              <a class="nav-link" data-scroll href="#contact-us">Contact Me.</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- SECTION -->
+    <div class="container-fluid hero darkmode-ignore">
+      <img src="images/gonzalomb.svg" alt="Designed by slidesgo / Freepik" />
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <!-- Change Logo Img Here -->
-          <a class="navbar-brand" href="#"
-            ><img
-              class="navbar-icon"
-              src="images/iconGonzaloMB.svg"
-              alt="Designed by pikisuperstar / Freepik"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div class="interactive-menu-button">
-              <a href="#">
-                <span>Menu</span>
-              </a>
-            </div>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#home"
-                  >Home.<span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#about-us">About Me.</a>
-              </li>
-              <li class="nav-item">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#portfolio"
-                  >Work Portfolio.</a
-                >
-              </li>
-              <li class="nav-item">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#skills">Skillset.</a>
-              </li>
-              <li class="nav-item">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#projects"
-                  >Personal Projects.</a
-                >
-              </li>
-              <li class="nav-item">
-                <!-- Nav Link -->
-                <a class="nav-link" data-scroll href="#contact-us"
-                  >Contact Me.</a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-      <!-- SECTION -->
-      <div class="container-fluid hero darkmode-ignore">
-        <img src="images/gonzalomb.svg" alt="Designed by slidesgo / Freepik" />
-        <div class="container">
-          <!-- Title -->
-          <h1>Gonzalo Meana</h1>
-          <h2>
-            SAPUI5 | SAP Fiori UX <br />
-            Analyst-Developer
-          </h2>
-          <div class="hero-btns">
-            <!-- Hero Btn First -->
-            <a data-scroll href="#about-us">More About me</a>
-            <!-- Hero Btn Second -->
-            <a data-scroll href="#contact-us">Get in Touch.</a>
-          </div>
+        <!-- Title -->
+        <h1>Gonzalo Meana</h1>
+        <h2>
+          SAPUI5 | SAP Fiori UX <br />
+          Analyst-Developer
+        </h2>
+        <div class="hero-btns">
+          <!-- Hero Btn First -->
+          <a data-scroll href="#about-us">More About me</a>
+          <!-- Hero Btn Second -->
+          <a data-scroll href="#contact-us">Get in Touch.</a>
         </div>
       </div>
-    </header>
-    <!-- SERVICES SECTION -->
-    <section id="about-us" class="services">
-      <div class="container-fluid">
-        <div class="side-img">
-          <img src="images/aside.svg" alt="" />
-        </div>
-        <div class="side2-img">
-          <img src="images/aside2.svg" alt="" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-sm-12 col-lg-4 service-txt">
-              <h2>Anything you need,please contact me</h2>
-              <div class="hero-btns service-btn">
-                <a data-scroll href="#contact-us">Get in Touch</a>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="service-box">
-                <img class="ui5" src="images/programmer.svg" alt="" />
-                <!-- Service Title -->
-                <h3>UI5 & FIORI<br />Developer</h3>
-                <!-- Replace Patch to Image Under -->
-                <p>
-                  Sap Fiori Consultant with experience in UX UI Fiori
-                  Applications using SAP UI5, JS, HTML, CSS, OData, CDS and
-                  Fiori Elements.
-                </p>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4">
-              <div class="service-box">
-                <img src="images/service-icon2.svg" alt="" />
-                <!-- Service Title -->
-                <h3>Web & App<br />Developer</h3>
-                <!-- Service Info -->
-                <p>
-                  Web and App Developer for fun to improve myself, my coding
-                  skills and tech knowledge.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </header>
+  <!-- SERVICES SECTION -->
+  <section id="about-us" class="services">
+    <div class="container-fluid">
+      <div class="side-img">
+        <img src="images/aside.svg" alt="" />
       </div>
-    </section>
-    <!-- ABOUT SECTION -->
-    <section class="about">
+      <div class="side2-img">
+        <img src="images/aside2.svg" alt="" />
+      </div>
       <div class="container">
         <div class="row">
-          <div class="col-12 col-sm-12 col-lg-6">
-            <img
-              src="images/aboutme1.svg"
-              alt="Designed by stories / Freepik"
-            />
+          <div class="col-12 col-sm-12 col-lg-4 service-txt">
+            <h2>Anything you need,please contact me</h2>
+            <div class="hero-btns service-btn">
+              <a data-scroll href="#contact-us">Get in Touch</a>
+            </div>
           </div>
-          <div class="col-12 col-sm-12 col-lg-6">
-            <h2>Know more about me</h2>
-            <!-- Replace About Us Text Under -->
-            <p>
-              SAP Fiori UX | SAPUI5 | BTP analyst-developer at Unisys,
-              passionate about my work and always willing to learn new things
-              and have new challenges. I enjoy all aspects of my job and also I
-              love studying and learning about new technologies.
-              <br />
-              Interested in learning something new either from colleagues or
-              just creative and interesting people, do not hesitate to contact
-              me if you wish.
-            </p>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img class="ui5" src="images/programmer.svg" alt="" />
+              <!-- Service Title -->
+              <h3>UI5 & FIORI<br />Developer</h3>
+              <!-- Replace Patch to Image Under -->
+              <p>
+                Sap Fiori Consultant with experience in UX UI Fiori
+                Applications using SAP UI5, JS, HTML, CSS, OData, CDS and
+                Fiori Elements.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="service-box">
+              <img src="images/service-icon2.svg" alt="" />
+              <!-- Service Title -->
+              <h3>Web & App<br />Developer</h3>
+              <!-- Service Info -->
+              <p>
+                Web and App Developer for fun to improve myself, my coding
+                skills and tech knowledge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img src="images/aboutme1.svg" alt="Designed by stories / Freepik" />
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6">
+          <h2>Know more about me</h2>
+          <!-- Replace About Us Text Under -->
+          <p>
+            SAP Fiori UX | SAPUI5 | BTP analyst-developer at Deloitte,
+            passionate about my work and always willing to learn new things
+            and have new challenges. I enjoy all aspects of my job and also I
+            love studying and learning about new technologies.
             <br />
-            <div class="hero-btns service-btn cv-btn">
-              <!-- Download CV BTN -->
-              <a href="documents/GonzaloMeanaCV.pdf" target="_blank"
-                >Check my CV</a
-              >
-            </div>
-            <br />
+            Interested in learning something new either from colleagues or
+            just creative and interesting people, do not hesitate to contact
+            me if you wish.
+          </p>
+          <br />
+          <div class="hero-btns service-btn cv-btn">
+            <!-- Download CV BTN -->
+            <a href="documents/GonzaloMeanaCV.pdf" target="_blank">Check my CV</a>
           </div>
+          <br />
         </div>
       </div>
-    </section>
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <div class="container-fluid">
-        <div class="portfolio-aside">
-          <img src="images/aside3.svg" alt="" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h5>WORK PORTFOLIO</h5>
-              <h2>See some of my<br />work projects</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Proyecto1 -->
-            <div class="col-12 col-lg-4 work-box btn-abrir-RepsolRigel">
-              <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <img
-                    src="images/repsol.png"
-                    class="photobox__preview"
-                    alt="Preview"
-                  />
-                  <span class="photobox__label">REPSOL RIGEL</span>
-                </div>
-              </div>
-            </div>
-            <!-- Proyecto2 -->
-            <div class="col-12 col-lg-4 work-box btn-abrir-NaturgyCDS">
-              <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <img
-                    src="images/naturgy.png"
-                    class="photobox__preview"
-                    alt="Preview"
-                  />
-                  <span class="photobox__label">NATURGY FIORI ELEMENTS</span>
-                </div>
-              </div>
-            </div>
-            <!-- Proyecto1 -->
-            <div class="col-12 col-lg-4 work-box btn-abrir-RepsolADA">
-              <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <img
-                    src="images/repsol.png"
-                    class="photobox__preview"
-                    alt="Preview"
-                  />
-                  <span class="photobox__label">REPSOL ADA</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div>
+  </section>
+  <!-- Portfolio -->
+  <section id="portfolio" class="portfolio">
+    <div class="container-fluid">
+      <div class="portfolio-aside">
+        <img src="images/aside3.svg" alt="" />
       </div>
-    </section>
-    <br />
-    <br />
-    <section class="portfolio" id="skills">
-      <div class="container-fluid">
-        <div class="portfolio-aside">
-          <img src="images/aside3.svg" alt="" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h5>SKILLSET</h5>
-              <h2>Technical skills <br />and competencies</h2>
-            </div>
-          </div>
-          <div class="row even skillcont" id="skillset">
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/html.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">HTML</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/css.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">CSS</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/js.svg" />
-                <span class="tooltiptext">Javascript</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/ui5.svg" />
-                <span class="tooltiptext">UI5</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/odata.svg" />
-                <span class="tooltiptext">OData</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/abap.svg" />
-                <span class="tooltiptext">ABAP CDS</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/sapgui.svg" />
-                <span class="tooltiptext">SAP Logon</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/scp.svg" />
-                <span class="tooltiptext">SCP / BTP</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/react.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">React.js</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/bootstrap.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">Bootstrap</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/node.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">Node.js</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/git.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">GIT</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/npm.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">npm</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img
-                  class="skillset"
-                  src="../images/bash.svg"
-                  alt="The author of this image is https://github.com/xrochoa"
-                />
-                <span class="tooltiptext">Bash</span>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="tooltip">
-                <img class="skillset" src="../images/linux.svg" />
-                <span class="tooltiptext">Linux</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <br />
-    <br />
-    <!-- PERSONAL PROJECTS SECTION -->
-    <section id="projects" class="blog">
-      <div class="container-fluid">
-        <div class="blog-aside">
-          <img src="images/aside4.svg" alt="" />
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h5>PERSONAL PROJECTS</h5>
-              <h2>Check my last apps</h2>
-            </div>
-          </div>
-          <div id="blog-drag" class="row blog-slider">
-            <div class="col-12 col-lg-4 blog-box blog-first">
-              <!-- Blog Post Title -->
-              <h6>SAP Fiori Smart Table</h6>
-              <!-- Blog Post Date -->
-              <p>OData, UI5</p>
-              <!-- Blog Post -->
-              <p>
-                OData (Open Data Protocol) service from scratch and an Smart
-                Table App in UI5 using a table from the sap.m. library.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/SmartTable-App-UI5', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box">
-              <!-- Blog Post Title -->
-              <h6>UI5 Form and SmartTable</h6>
-              <!-- Blog Post Date -->
-              <p>ABAP CDS, OData, UI5</p>
-              <!-- Blog Post -->
-              <p>
-                App of a creation form and a smart table that shows the records
-                created, also allowing records to be deleted.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/ZFORMULARIO_UI5', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box">
-              <!-- Blog Post Title -->
-              <h6>Analytical List Page</h6>
-              <!-- Blog Post Date -->
-              <p>ABAP CDS, OData, UI5</p>
-              <!-- Blog Post -->
-              <p>
-                Create an Analytical List Page using analytical model based on
-                ABAP CDS views and annotations.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/z_demo_flight_cds', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box">
-              <!-- Blog Post Title -->
-              <h6>Books-TierList React.js</h6>
-              <!-- Blog Post Date -->
-              <p>React.js</p>
-              <!-- Blog Post -->
-              <p>
-                App made with React.js from scratch. Books catalog where you can
-                search, score, add and delete.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/books-tierlist-react.js', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-              <!-- Blog Post Title -->
-              <h6>To-Do List</h6>
-              <!-- Blog Post Date -->
-              <p>React.js</p>
-              <!-- Blog Post -->
-              <p>
-                App made with React.js from scratch. It's a list of tasks you
-                need to complete, or things that you want to do.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/To-Do-List-React.js', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-              <!-- Blog Post Title -->
-              <h6>Calculator JS</h6>
-              <!-- Blog Post Date -->
-              <p>HTML, CSS, JS</p>
-              <!-- Blog Post -->
-              <p>
-                IOS style calculator built with HTML, CSS and JS as an exercise
-                to practice javascripts skills.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/calculator-js', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-              <!-- Blog Post Title -->
-              <h6>Will you marry me ?</h6>
-              <!-- Blog Post Date -->
-              <p>React.js, CSS, NPM</p>
-              <!-- Blog Post -->
-              <p>
-                I made this marriage proposal app for my wife for fun (the real
-                marriage proposal was more romantic)
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/will-you-marry-me', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-              <!-- Blog Post Title -->
-              <h6>Build Portfolio</h6>
-              <!-- Blog Post Date -->
-              <p>HTML, CSS, JS</p>
-              <!-- Blog Post -->
-              <p>
-                Indeed you can also see the code of this web page in my github
-                and use it as a template to make your own.
-              </p>
-              <img
-                class="app-img"
-                src="images/github.png"
-                onClick="javascript:window.open('https://github.com/GonzaloMB/Portfolio_Web_GonzaloMB', '_blank');"
-              />
-            </div>
-
-            <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-              <!-- Blog Post Title -->
-              <h6>DiTec Ingenieros</h6>
-              <!-- Blog Post Date -->
-              <p>Wordpress</p>
-              <!-- Blog Post -->
-              <p>
-                Website made with Wordpress and different plugins such as
-                ELementor and use of technologies like Apache.
-              </p>
-              <img
-                class="app-img"
-                src="images/google.png"
-                onClick="javascript:window.open('https://ditecingenieros.com', '_blank');"
-              />
-            </div>
-          </div>
-          <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
-          <button class="hide-me" id="blog-btn">Show More Stories</button>
-        </div>
-      </div>
-    </section>
-    <!-- CONTACT SECTION -->
-    <section id="contact-us" class="contact">
-      <div class="container">
-        <form
-          action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936"
-          method="POST"
-          target="_self"
-        >
-          <div class="row">
-            <div class="col-12">
-              <h5>CONTACT ME</h5>
-              <h2>Get in Touch</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-lg-6 email">
-              <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next"
-              value="https://gonzalomb.com/thankyou.html" / />
-              <input type="text" name="name" placeholder="Full Name" required />
-            </div>
-            <div class="col-12 col-lg-6 email">
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                required
-              />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 message">
-              <textarea
-                placeholder="Message here..."
-                id="message"
-                name="message"
-                rows="5"
-                cols="1"
-              ></textarea>
-            </div>
-            <div class="col-12">
-              <div class="hero-btns contact-btn">
-                <!-- Send Message Btn -->
-                <button type="submit">Send Message</button>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-    <!-- FOOTER SECTION -->
-    <footer class="darkmode-ignore">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h5>UI5 Developer</h5>
-            <h3>Gonzalo Meana</h3>
-            <ul class="contact-nav">
-              <li><a data-scroll href="#home">Home.</a></li>
-              <li><a data-scroll href="#about-us">About Me.</a></li>
-              <li><a data-scroll href="#portfolio">Work Portfolio.</a></li>
-              <li><a data-scroll href="#skills">Skillset.</a></li>
-              <li><a data-scroll href="#projects">Personal Projects.</a></li>
-              <li><a data-scroll href="#contact-us">Contact.</a></li>
-            </ul>
-            <h6>© 2021 - GonzaloMB,All Right Reserved</h6>
-            <ul class="social">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/gonzalo-meana-balseiro-90a523188/"
-                  target="_blank"
-                  ><i class="icofont-linkedin"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/GonzaloMB" target="_blank"
-                  ><i class="icofont-github"></i
-                ></a>
-              </li>
-            </ul>
+            <h5>WORK PORTFOLIO</h5>
+            <h2>See some of my<br />work projects</h2>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- POPUP REPSOL RIGEL -->
-    <div class="pop-up-RepsolRigel">
-      <div class="pop-up-wrap-RepsolRigel">
-        <div
-          class="pop-up-title"
-          style="background-image: url('../images/logo_repsol.jpg')"
-        ></div>
-        <div class="subcription">
-          <div class="line"></div>
-          <i class="circulo" id="closeRepsolRigel">X</i>
-          <div class="sub-content">
-            <h2>Repsol RIGEL</h2>
-            <p>
-              UI5 development of Experimentation hours management tools.
-              Transfer to SAP CO with vision UI5 (SAP Fiori) of the
-              functionalities of the Rigel application (allocation and
-              distribution of laboratory hours).
-            </p>
-            <iframe
-              class="myFrameRepsolRigel"
-              id="player"
-              type="text/html"
-              width="270"
-              height="150"
-              src="https://www.youtube.com/embed/P5RY0C4Ka3I"
-              frameborder="0"
-            ></iframe>
+        <div class="row">
+          <!-- Proyecto1 -->
+          <div class="col-12 col-lg-4 work-box btn-abrir-RepsolRigel">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <img src="images/repsol.png" class="photobox__preview" alt="Preview" />
+                <span class="photobox__label">REPSOL RIGEL</span>
+              </div>
+            </div>
           </div>
-          <div class="line"></div>
+          <!-- Proyecto2 -->
+          <div class="col-12 col-lg-4 work-box btn-abrir-NaturgyCDS">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <img src="images/naturgy.png" class="photobox__preview" alt="Preview" />
+                <span class="photobox__label">NATURGY FIORI ELEMENTS</span>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto1 -->
+          <div class="col-12 col-lg-4 work-box btn-abrir-RepsolADA">
+            <div class="photobox photobox_type10">
+              <div class="photobox__previewbox">
+                <img src="images/repsol.png" class="photobox__preview" alt="Preview" />
+                <span class="photobox__label">REPSOL ADA</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- POPUP NATURGY CDS -->
-    <div class="pop-up-NaturgyCDS">
-      <div class="pop-up-wrap-NaturgyCDS">
-        <div
-          class="pop-up-title"
-          style="background-image: url('../images/naturgy.jpg')"
-        ></div>
-        <div class="subcription">
-          <div class="line"></div>
-          <i class="circulo" id="closeNaturgyCDS">X</i>
-          <div class="sub-content">
-            <h2>Naturgy CDS</h2>
-            <p>
-              Transfer from SAP PPM to Fiori Elements application (List Report),
-              using Core Data Service (CDS), Business Object Processing
-              Framework (BOPF) and extending the List Report standard
-              application using SAP UI5 to create upload and validation of
-              files.
-            </p>
-            <iframe
-              class="myFrameNaturgyCDS"
-              id="player"
-              type="text/html"
-              width="270"
-              height="150"
-              src="https://www.youtube.com/embed/0TY6Z3ytgcU"
-              frameborder="0"
-            ></iframe>
+  </section>
+  <br />
+  <br />
+  <section class="portfolio" id="skills">
+    <div class="container-fluid">
+      <div class="portfolio-aside">
+        <img src="images/aside3.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5>SKILLSET</h5>
+            <h2>Technical skills <br />and competencies</h2>
           </div>
-          <div class="line"></div>
+        </div>
+        <div class="row even skillcont" id="skillset">
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/html.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">HTML</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/css.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">CSS</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/js.svg" />
+              <span class="tooltiptext">Javascript</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/ui5.svg" />
+              <span class="tooltiptext">UI5</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/odata.svg" />
+              <span class="tooltiptext">OData</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/abap.svg" />
+              <span class="tooltiptext">ABAP CDS</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/sapgui.svg" />
+              <span class="tooltiptext">SAP Logon</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/scp.svg" />
+              <span class="tooltiptext">SCP / BTP</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/react.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">React.js</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/bootstrap.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">Bootstrap</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/node.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">Node.js</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/git.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">GIT</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/npm.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">npm</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/bash.svg"
+                alt="The author of this image is https://github.com/xrochoa" />
+              <span class="tooltiptext">Bash</span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 work-box">
+            <div class="tooltip">
+              <img class="skillset" src="../images/linux.svg" />
+              <span class="tooltiptext">Linux</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- POPUP REPSOL ADA -->
-    <div class="pop-up-RepsolADA">
-      <div class="pop-up-wrap-RepsolADA">
-        <div
-          class="pop-up-title"
-          style="background-image: url('../images/logo_repsol.jpg')"
-        ></div>
-        <div class="subcription">
-          <div class="line"></div>
-          <i class="circulo" id="closeRepsolADA">X</i>
-          <div class="sub-content">
-            <h2>Repsol ADA</h2>
+  </section>
+  <br />
+  <br />
+  <!-- PERSONAL PROJECTS SECTION -->
+  <section id="projects" class="blog">
+    <div class="container-fluid">
+      <div class="blog-aside">
+        <img src="images/aside4.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5>PERSONAL PROJECTS</h5>
+            <h2>Check my last apps</h2>
+          </div>
+        </div>
+        <div id="blog-drag" class="row blog-slider">
+          <div class="col-12 col-lg-4 blog-box blog-first">
+            <!-- Blog Post Title -->
+            <h6>SAP Fiori Smart Table</h6>
+            <!-- Blog Post Date -->
+            <p>OData, UI5</p>
+            <!-- Blog Post -->
             <p>
-              Application using Core Data Service (CDS) and Fiori Elements that
-              allows managing the approvals of projects established by
-              Regulation 060 on Investments, divestments and expenses, and that
-              offers mobility and integration with the rest of non-SAP and SAP
-              systems.
+              OData (Open Data Protocol) service from scratch and an Smart
+              Table App in UI5 using a table from the sap.m. library.
             </p>
-            <!-- <iframe class="myFrameRepsolADA" id="player" type="text/html" width="270" height="150"
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/SmartTable-App-UI5', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>UI5 Form and SmartTable</h6>
+            <!-- Blog Post Date -->
+            <p>ABAP CDS, OData, UI5</p>
+            <!-- Blog Post -->
+            <p>
+              App of a creation form and a smart table that shows the records
+              created, also allowing records to be deleted.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/ZFORMULARIO_UI5', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Analytical List Page</h6>
+            <!-- Blog Post Date -->
+            <p>ABAP CDS, OData, UI5</p>
+            <!-- Blog Post -->
+            <p>
+              Create an Analytical List Page using analytical model based on
+              ABAP CDS views and annotations.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/z_demo_flight_cds', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box">
+            <!-- Blog Post Title -->
+            <h6>Books-TierList React.js</h6>
+            <!-- Blog Post Date -->
+            <p>React.js</p>
+            <!-- Blog Post -->
+            <p>
+              App made with React.js from scratch. Books catalog where you can
+              search, score, add and delete.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/books-tierlist-react.js', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>To-Do List</h6>
+            <!-- Blog Post Date -->
+            <p>React.js</p>
+            <!-- Blog Post -->
+            <p>
+              App made with React.js from scratch. It's a list of tasks you
+              need to complete, or things that you want to do.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/To-Do-List-React.js', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Calculator JS</h6>
+            <!-- Blog Post Date -->
+            <p>HTML, CSS, JS</p>
+            <!-- Blog Post -->
+            <p>
+              IOS style calculator built with HTML, CSS and JS as an exercise
+              to practice javascripts skills.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/calculator-js', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Will you marry me ?</h6>
+            <!-- Blog Post Date -->
+            <p>React.js, CSS, NPM</p>
+            <!-- Blog Post -->
+            <p>
+              I made this marriage proposal app for my wife for fun (the real
+              marriage proposal was more romantic)
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/will-you-marry-me', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Build Portfolio</h6>
+            <!-- Blog Post Date -->
+            <p>HTML, CSS, JS</p>
+            <!-- Blog Post -->
+            <p>
+              Indeed you can also see the code of this web page in my github
+              and use it as a template to make your own.
+            </p>
+            <img class="app-img" src="images/github.png"
+              onClick="javascript:window.open('https://github.com/GonzaloMB/Portfolio_Web_GonzaloMB', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>Entra Comunicaciones</h6>
+            <!-- Blog Post Date -->
+            <p>HTML, CSS, JS</p>
+            <!-- Blog Post -->
+            <p>
+              Development of the front-end part for a marketing company, using technologies such as html, css, js.
+            </p>
+            <img class="app-img" src="images/google.png"
+              onClick="javascript:window.open('https://entracomunicacion.cf/', '_blank');" />
+          </div>
+
+          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
+            <!-- Blog Post Title -->
+            <h6>DiTec Ingenieros</h6>
+            <!-- Blog Post Date -->
+            <p>Wordpress</p>
+            <!-- Blog Post -->
+            <p>
+              Website made with Wordpress and different plugins such as
+              ELementor and use of technologies like Apache.
+            </p>
+            <img class="app-img" src="images/google.png"
+              onClick="javascript:window.open('https://ditecingenieros.com', '_blank');" />
+          </div>
+        </div>
+        <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
+        <button class="hide-me" id="blog-btn">Show More Stories</button>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT SECTION -->
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <form action="https://formsubmit.co/f4982c27a748716ae6b33373cef58936" method="POST" target="_self">
+        <div class="row">
+          <div class="col-12">
+            <h5>CONTACT ME</h5>
+            <h2>Get in Touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 email">
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://gonzalomb.com/thankyou.html" / />
+            <input type="text" name="name" placeholder="Full Name" required />
+          </div>
+          <div class="col-12 col-lg-6 email">
+            <input type="email" name="email" placeholder="Email Address" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 message">
+            <textarea placeholder="Message here..." id="message" name="message" rows="5" cols="1"></textarea>
+          </div>
+          <div class="col-12">
+            <div class="hero-btns contact-btn">
+              <!-- Send Message Btn -->
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- FOOTER SECTION -->
+  <footer class="darkmode-ignore">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h5>UI5 Developer</h5>
+          <h3>Gonzalo Meana</h3>
+          <ul class="contact-nav">
+            <li><a data-scroll href="#home">Home.</a></li>
+            <li><a data-scroll href="#about-us">About Me.</a></li>
+            <li><a data-scroll href="#portfolio">Work Portfolio.</a></li>
+            <li><a data-scroll href="#skills">Skillset.</a></li>
+            <li><a data-scroll href="#projects">Personal Projects.</a></li>
+            <li><a data-scroll href="#contact-us">Contact.</a></li>
+          </ul>
+          <h6>© 2021 - GonzaloMB,All Right Reserved</h6>
+          <ul class="social">
+            <li>
+              <a href="https://www.linkedin.com/in/gonzalo-meana-balseiro-90a523188/" target="_blank"><i
+                  class="icofont-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/GonzaloMB" target="_blank"><i class="icofont-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- POPUP REPSOL RIGEL -->
+  <div class="pop-up-RepsolRigel">
+    <div class="pop-up-wrap-RepsolRigel">
+      <div class="pop-up-title" style="background-image: url('../images/logo_repsol.jpg')"></div>
+      <div class="subcription">
+        <div class="line"></div>
+        <i class="circulo" id="closeRepsolRigel">X</i>
+        <div class="sub-content">
+          <h2>Repsol RIGEL</h2>
+          <p>
+            UI5 development of Experimentation hours management tools.
+            Transfer to SAP CO with vision UI5 (SAP Fiori) of the
+            functionalities of the Rigel application (allocation and
+            distribution of laboratory hours).
+          </p>
+          <iframe class="myFrameRepsolRigel" id="player" type="text/html" width="270" height="150"
+            src="https://www.youtube.com/embed/P5RY0C4Ka3I" frameborder="0"></iframe>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+  <!-- POPUP NATURGY CDS -->
+  <div class="pop-up-NaturgyCDS">
+    <div class="pop-up-wrap-NaturgyCDS">
+      <div class="pop-up-title" style="background-image: url('../images/naturgy.jpg')"></div>
+      <div class="subcription">
+        <div class="line"></div>
+        <i class="circulo" id="closeNaturgyCDS">X</i>
+        <div class="sub-content">
+          <h2>Naturgy CDS</h2>
+          <p>
+            Transfer from SAP PPM to Fiori Elements application (List Report),
+            using Core Data Service (CDS), Business Object Processing
+            Framework (BOPF) and extending the List Report standard
+            application using SAP UI5 to create upload and validation of
+            files.
+          </p>
+          <iframe class="myFrameNaturgyCDS" id="player" type="text/html" width="270" height="150"
+            src="https://www.youtube.com/embed/0TY6Z3ytgcU" frameborder="0"></iframe>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+  <!-- POPUP REPSOL ADA -->
+  <div class="pop-up-RepsolADA">
+    <div class="pop-up-wrap-RepsolADA">
+      <div class="pop-up-title" style="background-image: url('../images/logo_repsol.jpg')"></div>
+      <div class="subcription">
+        <div class="line"></div>
+        <i class="circulo" id="closeRepsolADA">X</i>
+        <div class="sub-content">
+          <h2>Repsol ADA</h2>
+          <p>
+            Application using Core Data Service (CDS) and Fiori Elements that
+            allows managing the approvals of projects established by
+            Regulation 060 on Investments, divestments and expenses, and that
+            offers mobility and integration with the rest of non-SAP and SAP
+            systems.
+          </p>
+          <!-- <iframe class="myFrameRepsolADA" id="player" type="text/html" width="270" height="150"
               src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
               frameborder="0"></iframe>  -->
-          </div>
-          <div class="line"></div>
         </div>
+        <div class="line"></div>
       </div>
     </div>
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-    <script>
-      function addDarkmodeWidget() {
-        new Darkmode({
-          bottom: "10px",
-          right: "10px",
-          time: "0.5s",
-          saveInCookies: true,
-          label: "🌓",
-        }).showWidget();
-      }
-      window.addEventListener("load", addDarkmodeWidget);
-    </script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/main.js"></script>
-    <!-- Scripts Ends -->
-  </body>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <script>
+    function addDarkmodeWidget() {
+      new Darkmode({
+        bottom: "10px",
+        right: "10px",
+        time: "0.5s",
+        saveInCookies: true,
+        label: "🌓",
+      }).showWidget();
+    }
+    window.addEventListener("load", addDarkmodeWidget);
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+    integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Scripts Ends -->
+</body>
+
 </html>
